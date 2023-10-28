@@ -32,7 +32,7 @@ namespace Conversion_of_Decimal
             {
                 Console.Clear();
                 Console.WriteLine("Numbers must be between 0 and 65535 only!");
-                Console.WriteLine("Please enter again: ");
+                Console.Write("Please enter again: ");
                 uInput = int.Parse(Console.ReadLine()); 
             } 
 
