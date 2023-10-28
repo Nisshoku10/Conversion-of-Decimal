@@ -61,6 +61,7 @@ namespace Conversion_of_Decimal
         {
             while(uChoice != 'Y' || uChoice != 'N') 
             {
+                Console.Clear();
                 Console.WriteLine("Please input Y or N only!");
                 Console.Write("Convert again? [Y/N]: ");
                 uChoice = char.Parse(Console.ReadLine().ToUpper());
