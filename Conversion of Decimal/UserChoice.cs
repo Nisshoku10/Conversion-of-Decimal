@@ -55,5 +55,17 @@ namespace Conversion_of_Decimal
             }
             return true;
         }
+
+        private char ValidateUserChoice(char uChoice)
+        {
+            while(uChoice != 'Y' || uChoice != 'N') 
+            {
+                Console.WriteLine("Please input Y or N only!");
+                Console.Write("Convert again? [Y/N]: ");
+                uChoice = char.Parse(Console.ReadLine().ToUpper());
+            }
+
+            return uChoice;
+        }
     }
 }
