@@ -48,6 +48,7 @@ namespace Conversion_of_Decimal
             
             Console.Write("\nConvert again? [Y/N]: ");
             uChoice = char.Parse(Console.ReadLine().ToUpper());
+            ValidateUserChoice(uChoice);
            
             if (uChoice == 'N')
             {
